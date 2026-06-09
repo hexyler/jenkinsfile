@@ -4,7 +4,7 @@ stages{
 stage('First stage')
 {
 steps{
-git branch: 'master', url: 'https://github.com/dhanunjayasneha/t1.git'
+git branch: 'master', url: 'https://github.com/hexyler/jenkinsfile.git'
 }
 }
 stage('Second stage')
